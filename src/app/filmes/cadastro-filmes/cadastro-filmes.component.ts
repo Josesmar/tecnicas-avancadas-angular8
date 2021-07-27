@@ -39,7 +39,7 @@ export class CadastroFilmesComponent implements OnInit {
       this.criarFormulario(this.criarFilmeEmBranco());
     }
 
-    this.generos = ['Ação', 'Romance', 'Aventura', 'Terror', 'Ficção cientifica', 'Comédia', 'Aventura', 'Drama'];
+    this.generos = ['Ação', 'Romance', 'Aventura', 'Terror', 'Ficção cientifica', 'Comédia', 'Suspense', 'Drama'];
 
   }
 
@@ -49,6 +49,7 @@ export class CadastroFilmesComponent implements OnInit {
       return;
     }
 
+    //"as define o tipo - Garante a o tipo do dado atribuido é do tipo Filme"
     const filme = this.cadastro.getRawValue() as Filme;
     if (this.id) {
       filme.id = this.id;

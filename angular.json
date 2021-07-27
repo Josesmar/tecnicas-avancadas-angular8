@@ -144,6 +144,7 @@
     }
   },
   "cli": {
+    "analytics": "4bc8344f-588d-4509-a02d-73ec5d19edf3",
     "defaultCollection": "@ngrx/schematics"
   }
 }
