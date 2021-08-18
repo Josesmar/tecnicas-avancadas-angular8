@@ -3,7 +3,7 @@ const express = require('express');
 // Iniciar express
 const app = express();
 // nome da pasta no dist que será feito o build
-const appName = 'tecnicas-avancadas-angular8'
+const appName = 'angular-material-base'
 // local onde o build irá gerar os arquivos
 const outputPath = `${__dirname}/dist/${appName}`;
 
